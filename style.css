@@ -1,0 +1,203 @@
+/*Global Styling*/
+
+abbr,
+acronym,
+address,
+applet,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+tt,
+u,
+ul,
+var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0
+}
+ol,
+ul {
+    list-style: none
+}
+blockquote,
+q {
+    quotes: none
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+:focus {
+    outline: 0
+}
+del {
+    text-decoration: line-through
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block
+}
+body {
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #20292f;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 80px;
+    font-weight: 400;
+    transition: padding .8s ease;
+    -webkit-transition: padding .8s ease;
+    -moz-transition: padding .8s ease;
+}
+a {
+    text-decoration: none;
+    color: #f92c8b;
+    transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+}
+a:hover {
+    text-decoration: none
+}
+.clear {
+    clear: both
+}
+.ui-tabs-hide {
+    display: none
+}
+br.clear {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Headers */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding-bottom: 5px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #20292f;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #20292f
+}
+h1 {
+    font-size: 35px
+}
+h2 {
+    font-size: 20px
+}
+h3,
+h4,
+h5,
+h6 {
+    font-size: 18px;
+}
+/*Local Styling*/
+
+/*Header Styles*/
+#main-nav {
+	padding: 14px 0;
+	width: 100%;
+	background-color: #fff;
+}
+#main-nav .container {
+	width: 100%;
+	max-width: 1400px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0 40px;
+}
+#main-nav .container > a {
+	display: block;
+	float: left;
+}
+#main-nav .container >a > img {
+	float: left;
+	margin: -4px 25px 0 0;
+	width: 120px;
+	max-width: 100%;
+	height: auto;
+
+}
+#main-nav .container nav {}
+#main-nav .container nav ul{}
+#main-nav .container nav ul li{}
+#main-nav .container nav ul li a {}
+#main-nav .container nav ul li a:hover {}
